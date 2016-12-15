@@ -1,0 +1,62 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Main  
+{
+	public static void main (String[] args) throws IOException 
+	{
+		int mes_numero;
+		String mes_cadena;
+		BufferedReader br = new BufferedReader(new InputReader(System.in));
+
+		System.out.print("En que mes naciste? ");
+		mes_numero = Integer.parseInt(br.readLine());
+
+		switch (mes_numero) 
+			{
+			case 1:
+				mes_cadena = "Enero"
+				break;
+			case 2:
+				mes_cadena = "Febrero"
+				break;
+			case 3:
+				mes_cadena = "Marzo"
+				break;
+			case 4:
+				mes_cadena = "Abril"
+				break;
+			case 5:
+				mes_cadena = "Mayo"
+				break;
+			case 6:
+				mes_cadena = "Junio"
+				break;
+			case 7:
+				mes_cadena = "Julio"
+				break;
+			case 8:
+				mes_cadena = "Agosto"
+				break;
+			case 9:
+				mes_cadena = "Septiembre"
+				break;
+			case 10:
+				mes_cadena = "Octubre"
+				break;
+			case 11:
+				mes_cadena = "Noviembre"
+				break;
+			case 12:
+				mes_cadena = "Diciembre"
+				break;
+			default:
+				mes_cadena = "Mes invalido";
+				break;
+			}
+			
+		System.out.println("Usted nacio en " + mes_cadena);			
+
+	}
+}
