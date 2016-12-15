@@ -1,0 +1,16 @@
+A1,Cable TV, Internet, Servici Al Cuarto, 80.00 x Noche
+A2,Internet, Servici Al Cuarto, 50.00 x Noche
+A3,Servici Al Cuarto, 35.00 x Noche
+A4,15.00 x Noche
+B1,Cable TV, Internet, Servici Al Cuarto, 100.00 x Noche
+B2,Internet, Servici Al Cuarto, 70.00 x Noche
+B3,Servici Al Cuarto, 50.00 x Noche
+B4,35.00 x Noche
+C1,Cable TV, Internet, Servici Al Cuarto, 180.00 x Noche
+C2,Internet, Servici Al Cuarto, 100.00 x Noche
+C3,Servici Al Cuarto, 75.00 x Noche
+C4,50.00 x Noche
+S1,Cable TV, Internet, Servici Al Cuarto, 250.00 x Noche
+S2,Internet, Servici Al Cuarto, 150.00 x Noche
+S3,Servici Al Cuarto, 100.00 x Noche
+S4,65.00 x Noche
