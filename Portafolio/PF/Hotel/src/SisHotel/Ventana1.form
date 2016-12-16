@@ -20,7 +20,7 @@
           <font name="Arial" size="24" style="0"/>
           <horizontalAlignment value="0"/>
           <horizontalTextPosition value="0"/>
-          <text value="Hotel Ruanda"/>
+          <text value="MOTEL DE PASO"/>
         </properties>
       </component>
       <component id="c0cc5" class="javax.swing.JButton" binding="ver">

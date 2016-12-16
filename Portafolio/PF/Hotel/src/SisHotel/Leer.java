@@ -1,11 +1,18 @@
 package SisHotel;
-
+/**
+ * @since 1.0
+ */
 /*Clase que permite leer un archivo de texto*/
 
         //Importamos clases a usar
         import java.io.FileReader;
         import java.io.BufferedReader;
 public class Leer
+/**
+ * @author GABRIELA - BRITTANY - HILLARY - CHIARI
+ * @version 1.0
+ */
+
 {
     public static void main(String arg[])
     {

@@ -65,22 +65,22 @@ public class Preferncia_d extends JDialog {
 
     private void onOK() {
         if ( textField1.getText().equals("")) {
-            JOptionPane.showMessageDialog(null, "Debe Ingresar el Nombre");
+            JOptionPane.showMessageDialog(null, "Debe ingresar el nombre");
             textField1.requestFocus();
             return;
         }
         if  (!rbtn1.isSelected() && !rbtn2.isSelected()  &&  !rbtn3.isSelected() &&  !rbtn4.isSelected() ){
-            JOptionPane.showMessageDialog(null, "Debe Seleccionar un Tipo de Habitacion");
+            JOptionPane.showMessageDialog(null, "Debe seleccionar un tipo de habitación");
             return;
         }
 
         if ( fecha1.getText().equals("") )  {
-            JOptionPane.showMessageDialog(null, "Debe Ingresar Fecha Inicia");
+            JOptionPane.showMessageDialog(null, "Debe ingresar fecha inicial");
             fecha1.requestFocus();
             return;
         }
         if ( fecha2.getText().equals("") )  {
-            JOptionPane.showMessageDialog(null, "Debe Ingresar Fecha Final");
+            JOptionPane.showMessageDialog(null, "Debe ingresar fecha final");
             fecha2.requestFocus();
             return;
         }
@@ -110,13 +110,13 @@ public class Preferncia_d extends JDialog {
         }
 
         Escribir escribe = new Escribir();
-        escribe.escribir(textField1.getText() +  ",");
-        escribe.escribir(habitacion+  ",");
-        escribe.escribir(servicio+  ",");
-        escribe.escribir(fecha1.getText()+  ",");
+        escribe.escribir(textField1.getText() +  ", ");
+        escribe.escribir(habitacion+  ", ");
+        escribe.escribir(servicio+  ", ");
+        escribe.escribir(fecha1.getText()+  ", ");
         escribe.escribir(fecha2.getText());
         escribe.escribir(newlines);
-        JOptionPane.showMessageDialog(null, "DatosGuardados Correctamente");
+        JOptionPane.showMessageDialog(null, "DATOS GUARDADOS CORRECTAMENTE");
         dispose();
     }
 
